@@ -4,7 +4,7 @@ An E-Commerce jewelry website that has multiple tabs, is responsive and stylish.
 
 
 ## HOW TO VIEW THIS PROJECT
-click this link: https://emelynyrivas.github.io/Ecommerce-Website/ 
+click this link: https://emelynyrivas.github.io/Chelseas-Website-Github/
 
 ## Purpose of this Project 
 - To display my front end web development skills, and see what I prioritized the most:
