@@ -148,7 +148,9 @@ function displayCart() {
                 <img src="./img/${item.tag}.jpg">
                 <span>${item.name}</span>
             </div>
-            <div class="price">${item.price}</div>
+            <div class="prices">
+                <span>${item.price}</span>
+                </div>
             <div class="quantity">
                 <ion-icon class="decrease"
                 name="arrow-back-circle-outline"></ion-icon>
