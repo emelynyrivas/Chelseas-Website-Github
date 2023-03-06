@@ -150,7 +150,7 @@ function displayCart() {
             </div>
             <div class="price-js">
                 <span>${item.price}</span>
-                </div>
+            </div>
             <div class="quantity-js">
                 <ion-icon class="decrease"
                 name="arrow-back-circle-outline"></ion-icon>
