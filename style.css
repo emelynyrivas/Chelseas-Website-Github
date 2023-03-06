@@ -870,7 +870,15 @@ footer .copyright{
     margin-right: 10px;
     cursor: pointer;
 
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+    display:inline;
 }
+
+
 
 
 
@@ -928,7 +936,11 @@ footer .copyright{
     border-bottom: 1px solid lightgray;
 } 
 
-
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .product {
     width: 45%;
@@ -947,18 +959,7 @@ footer .copyright{
 }
 
 
-.product ion-icon {
-    cursor: pointer;
-    display: flex;
-    flex-wrap: wrap;
-    display:inline;
-}
 
-.products {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .product img {
     width: 75px;
