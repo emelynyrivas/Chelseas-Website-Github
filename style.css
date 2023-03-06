@@ -869,6 +869,7 @@ footer .copyright{
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
+
 }
 
 
@@ -880,8 +881,8 @@ footer .copyright{
     justify-content: flex-start;
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
-
     margin: 0 auto;
+    padding: 8px 10px;
 
 }
 
@@ -1171,9 +1172,11 @@ footer .copyright{
     width: 50%;
     }
 
+
+ /*             CART PAGE             */
+
+
 }
-
-
 
 
 
@@ -1302,6 +1305,5 @@ footer .copyright{
 #cart-add #coupon {
     width: 100%;
 }
-
 
 }
