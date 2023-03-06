@@ -148,17 +148,17 @@ function displayCart() {
                 <img src="./img/${item.tag}.jpg">
                 <span>${item.name}</span>
             </div>
-            <div class="prices">
+            <div class="price-js">
                 <span>${item.price}</span>
                 </div>
-            <div class="quantity">
+            <div class="quantity-js">
                 <ion-icon class="decrease"
                 name="arrow-back-circle-outline"></ion-icon>
                 <span>${item.inCart}</span>
                 <ion-icon class="increase"
                 name="arrow-forward-circle-outline"></ion-icon>
             </div>
-            <div class="total">
+            <div class="total-js">
                 ${item.inCart * item.price}.00
             </div>
             `

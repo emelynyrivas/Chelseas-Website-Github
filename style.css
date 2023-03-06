@@ -849,6 +849,11 @@ footer .copyright{
 /*              CART               */
 
 
+.cart-msg h2{
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+}
 
 .products-container {
     width: 80%;
@@ -869,11 +874,13 @@ footer .copyright{
 
 
 .product-header {
-    font-size: 20px;
+    font-size: 23px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 4px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+
     margin: 0 auto;
 
 }
@@ -882,7 +889,6 @@ footer .copyright{
     width: 45%;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
 
 }
 
@@ -890,27 +896,38 @@ footer .copyright{
 
 .price {
     width: 15%;
-    display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
-    
+    text-align: center;
 }
 
 .quantity {
     width: 30%;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
-
 }
+
+.quantity-js {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
 
 .total {
     width: 10%;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
-
 } 
+
+.total-js {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+} 
+
+
 
 .product {
     width: 45%;
@@ -918,7 +935,6 @@ footer .copyright{
     align-items: center;
     padding:10px 10px;
     justify-content: flex-start;
-    background-color: orange;
     border-bottom: 1px solid lightgray;
 }
 
@@ -926,7 +942,6 @@ footer .copyright{
     justify-content: space-around;
     text-align: center;
     width: 100%;
-    background-color: green;
     margin: 10px;
 }
 
@@ -949,8 +964,7 @@ footer .copyright{
 }
 
 
-.prices {
-    background-color: gray;
+.price-js {
     width: 15%;
     display: flex;
     align-items: center;
@@ -960,11 +974,10 @@ footer .copyright{
 }
 
 
-.prices span {
+.price-js span {
     justify-content: space-around;
     text-align: center;
     width: 100%;
-    background-color: purple;
     margin: 10px;
 }
 
