@@ -43,6 +43,48 @@ let products = [
         tag: "ringset",
         price: 22,
         inCart:0
+    },
+
+    {
+        name: 'Rose Quartz Wired Ring Wrap',
+        tag: "rosequartz",
+        price: 12,
+        inCart:0
+    },
+
+    {
+        name: 'Beaded Flower Bracelet Set',
+        tag: "beadedflower",
+        price: 12,
+        inCart:0
+    },
+
+    {
+        name: 'Hydrating Avocado Hair Mask',
+        tag: "hairmask",
+        price: 8,
+        inCart:0
+    },
+
+    {
+        name: 'Rooibos Tea Face Scrub',
+        tag: "facescrub",
+        price: 12,
+        inCart:0
+    },
+
+    {
+        name: 'Dead Sea Bath Salt',
+        tag: "bathsalt",
+        price: 10,
+        inCart:0
+    },
+
+    {
+        name: 'Fairy Dust Lotion',
+        tag: "lotion",
+        price: 16,
+        inCart:0
     }
 
 ]
