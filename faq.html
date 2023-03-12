@@ -42,7 +42,7 @@
               <li><a href="index.html"> Home </a></li>
               <li><a href="shop.html"> Shop </a></li>
               <li><a href="about.html"> About </a></li>
-              <li><a href="faq.html"> FAQ </a></li>
+              <li><a class="active" href="faq.html"> FAQ </a></li>
               <li><a href="contact.html"> Contact </a></li>
               <a href= "#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
@@ -75,47 +75,39 @@
             <h2> Sign up to save 15% on your first order.</h2>
           </div>
 
-          <section id="prodetails" class="section-p1">
-            <div class="single-pro-image">
-                <img src="img/ringset.jpg" width="100%" id="MainImg" alt="">
+          
+          <div id="featured">
+            <h3> F A Q</h3>
+            <hr>
+            <p>You've got questions, we've got answers.</p>
+          </div>
 
-                <div class="small-img-group">
-                    <div class="small-img-col">
-                        <img src="img/ringset.jpg" width="100%" class="small-img" alt="">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="img/ringset2.jpg" width="100%" class="small-img" alt="">
-                    </div>
-                    <div class="small-img-col">
-                        <img src="img/ringset3.jpg" width="100%" class="small-img" alt="">
-                    </div>
-                </div>
-            </div>
+          <section id="faq" class="section-p1">
+            <h2> Do you ship International?</h2>
+            <p>No, only United States, Canada and Mexico.</p>
 
-            <div class="single-pro-details">
-                <h6> Wired Ring Wrap Set </h6>
-                <h4> Green Gem Set </h4>
-                <h2> $22</h2>
-                <select>
-                    <option> Select Ring Size</option>
-                    <option> 4</option>
-                    <option> 5</option>
-                    <option> 6</option>
-                    <option> 7</option>
-                    <option> 8</option>
-                </select>
-                    <input type="number" value="1">
-                    <button class="add-cart" class="normal">Add To Cart</button>
-                    <h4> Product Details</h4>
-                    <span>
-                        Lorem ipsum dolor sit amet. Et quae harum est nemo suscipit
-                        et rerum perspiciatis quo rerum adipisci eos quae odio. Est 
-                        delectus quam et velit galisum ea dolore harum et nesciunt 
-                        molestiae et rerum repellat. Ea consequatur quibusdam aut 
-                        erum nobis sit rerum ipsum in dolorum voluptatibus?
-                    </span>
-            </div>
+            <h2> How long do I have to wait to get my comfirmation email?</h2>
+            <p>Please wait up to 24hrs for your email. If 24 hours pasts, please contact our customer service team.</p>          
+            
+            <h2> What is your return policy?</h2>
+            <p> Free returns for unopened, unused products from 30 days of purchase.</p>
+
+            <h2> How can I get in contact with customer service?</h2>
+            <p> Please send a form with your contact inforation and concerns <a href="contact.html">Here</a> </p>
+
+            <h2> Do you accept Apple Pay?</h2>
+            <p> Not Yet. We only accept PayPal, Visa, Mastercard and American Express.</p>
+            
+            <h2> Are your products vegan and cruelty free?</h2>
+            <p> Absolutely! No animals were harmed in the marking of our products. </p>
+
+            <h2> How can I return my product?</h2>
+            <p> Contact our customer service <a href="contact.html">Here</a>, and we'll send you a free return label with instructions. </p>
+
           </section>
+
+
+
 
           <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
@@ -177,18 +169,6 @@
           </footer>
 
           <script>
-            var MainImg = document.getElementById("MainImg");
-            var smallimg = document.getElementsByClassName("small-img");
-
-            smallimg[0].onclick = function(){
-                MainImg.src = smallimg[0].src;
-            }
-            smallimg[1].onclick = function(){
-                MainImg.src = smallimg[1].src;
-            }
-            smallimg[2].onclick = function(){
-                MainImg.src = smallimg[2].src;
-            }
           </script>
 
 

@@ -668,6 +668,29 @@ footer .copyright{
 
 
 
+/*                  FAQ               */
+
+#faq h2{
+    font-family:'Roboto Mono', monospace ;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+#faq p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+#faq p a {
+    color: purple;
+    text-decoration: none;
+}
+
+
+
 
 /*               CONTACT                 */
 
