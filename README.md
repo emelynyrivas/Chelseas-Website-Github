@@ -27,4 +27,4 @@ click this link: https://emelynyrivas.github.io/Chelseas-Website-Github/
 
 
 ## Donations
-This quiz waas made entirelly by me, @emelynyrivas. If you want to support future projects like this, or just want to say thanks, please send any donations via CashApp to $PupusaRevuelta.
+This project was made entirelly by me, @emelynyrivas. If you want to support future projects like this, or just want to say thanks, please send any donations via CashApp to $PupusaRevuelta.
