@@ -16,14 +16,11 @@ click this link: https://emelynyrivas.github.io/Chelseas-Website-Github/
 ## How to Use this Project
 - Explore the site as you would any regular website. Only some of the site is clickable, and that is because it is a demo website.
 - The first two items on the home page have an add to cart function. click it and see how your activity changes on the cart page.
-- 
-
-
 
 
 ## How to contribute 
 1. Submit pull requets with comprehensive description of changes.
-2. Email me with any critical feedback to improve my project at @ emelynyrivas@gmail.com
+2. Email me with any critical feedback to improve my project at emelynyrivas@gmail.com
 
 
 ## Donations
